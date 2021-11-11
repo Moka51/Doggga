@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/justifiedGallery.min.css" />
+    <script src="js/jquery.js" defer></script>
+    <script src="js/replacements.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/jquery.justifiedGallery.min.js" defer></script>
+    <script src="js/mini-gallery.js" defer></script>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Dogggo Home</title>
+  </head>
+
+  <body>
+    <!-- header start
+    =========================================== -->
+    <header class="header">
+      <div class="extra__container">
+        <div class="header__inner">
+          <a href="index.html" class="header__inner-logo" data-replace="home">
+            <img src="images/logo.png" alt="" />
+          </a>
+          <nav class="nav" id="menu">
+            <div class="nav__inner">
+              <a href="#" class="nav__inner-link" data-replace="story">
+                Story
+              </a>
+              <a href="#" class="nav__inner-link" data-replace="meme"> Meme </a>
+              <a href="#" class="nav__inner-link" data-replace="marketplace">
+                Marketplace
+              </a>
+              <a href="#" class="nav__inner-link" data-replace="earning">
+                Earning
+              </a>
+              <a
+                href="#"
+                target="_blank"
+                class="nav__inner-logo"
+                data-replace="buy"
+              >
+                <img src="images/buy.png" alt="" />
+              </a>
+            </div>
+          </nav>
+          <div class="burger" id="menuBtn"></div>
+        </div>
+      </div>
+    </header>
+    <!-- header end
+    =========================================== -->
+    <!-- intro start
+    =========================================== -->
+    <section class="intro">
+      <div class="auto__container">
+        <div class="intro__inner">
+          <div class="intro__inner-image">
+            <div class="intro__inner-image-woff">
+              <img src="images/intro/woofwoof.gif" alt="" />
+            </div>
+            <img src="images/intro/dog.jpg" alt="" />
+            <img src="images/intro/title.png" alt="" />
+          </div>
+          <div class="intro__inner-row">
+            <div class="intro__inner-column">
+              <div class="intro__inner-column-link">
+                <a href="#" data-replace="bscscan">@CONTRACT</a>
+                <div
+                  class="intro__inner-column-link-copy"
+                  onclick="copyToClipboard('#copy')"
+                >
+                  <span
+                    id="copy"
+                    data-replace="contract"
+                    class="intro__contract-address"
+                  ></span>
+                  <strong id="change">COPY</strong>
+                </div>
+              </div>
+              <div class="intro__inner-column-link">
+                <a href="#" data-replace="chart">@CHART</a>
+              </div>
+              <div class="intro__inner-column-link">
+                <a href="#" data-replace="buyGuide">@HOW TO BUY</a>
+              </div>
+            </div>
+            <div class="intro__inner-column">
+              <div class="intro__inner-column-image">
+                <a href="#" data-replace="buy"
+                  ><img src="images/buy.gif" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- intro end
+    =========================================== -->
+    <!-- join start
+    =========================================== -->
+    <section class="join">
+      <div class="auto__container">
+        <div class="join__inner">
+          <h1>Join our kennels</h1>
+          <div class="join__inner-row">
+            <a
+              target="_blank"
+              href="#"
+              class="join__inner-row-link"
+              data-replace="twitter"
+            >
+              <img src="images/social/twitter.jpg" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="#"
+              class="join__inner-row-link"
+              data-replace="medium"
+            >
+              <img src="images/social/medium.jpg" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="#"
+              class="join__inner-row-link"
+              data-replace="facebook"
+            >
+              <img src="images/social/facebook.jpg" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="#"
+              class="join__inner-row-link"
+              data-replace="instagram"
+            >
+              <img src="images/social/instagram.jpg" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="#"
+              class="join__inner-row-link"
+              data-replace="reddit"
+            >
+              <img src="images/social/reddit.jpg" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="#"
+              class="join__inner-row-link"
+              data-replace="tiktok"
+            >
+              <img src="images/social/tiktok.jpg" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="#"
+              class="join__inner-row-link"
+              data-replace="telegram"
+            >
+              <img src="images/social/TgGroup.jpg" alt="" />
+            </a>
+            <a
+              href="#"
+              class="join__inner-row-link"
+              data-replace="telegramMemes"
+            >
+              <img src="images/social/TgMeme.jpg" alt="" />
+            </a>
+            <a href="#" class="join__inner-row-link" data-replace="discord">
+              <img src="images/social/discord.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- join end
+    =========================================== -->
+    <!-- info start
+    =========================================== -->
+    <section class="info">
+      <div class="auto__container">
+        <div class="info__inner">
+          <div class="info__inner-row">
+            <div class="info__inner-image">
+              <h2>
+                <span> TOKENOMICS </span>
+              </h2>
+              <img src="images/token.jpg" alt="" />
+            </div>
+          </div>
+          <a href="#" class="info__inner-link" data-replace="marketplace">
+            <img src="images/marketplacesoon.gif" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- token end
+    =========================================== -->
+    <!-- meme start
+    =========================================== -->
+    <section class="meme">
+      <div class="auto__container">
+        <div class="meme__inner">
+          <h1>
+            <span> LATEST MEMES </span>
+          </h1>
+          <a href="#" class="meme__inner-download" data-replace="meme">
+            <img src="images/download.gif" alt="" />
+          </a>
+          <div id="image-container"></div>
+        </div>
+      </div>
+    </section>
+    <!-- meme end
+	=========================================== -->
+    <!-- story start
+    =========================================== -->
+    <section class="story">
+      <div class="auto__container">
+        <div class="story__inner">
+          <h1>
+            <span> LATEST CHAPTER </span>
+          </h1>
+          <a href="story.html#chapter5" class="story__inner-more">
+            <img src="images/latestchapter.gif" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- story end
+    =========================================== -->
+    <!-- paper start
+    =========================================== -->
+    <section class="paper">
+      <div class="auto__container">
+        <div class="paper__inner">
+          <h1>
+            <span> TO DO LIST </span>
+          </h1>
+          <div class="paper__inner-subtitle">
+            IF LIVE CLICK IT
+            <br />
+            TO VISIT THE LINK
+          </div>
+          <div class="paper__inner-links">
+            <a
+              href="https://dogggo.medium.com/dogggo-want-to-be-famous-bb56731c0bb1"
+              class="paper__inner-links-link"
+            >
+              shiller contest
+              <span>live</span>
+            </a>
+            <a href="#" class="paper__inner-links-link">
+              meme contest
+              <span>soon</span>
+            </a>
+            <a href="#" class="paper__inner-links-link">
+              liquidity contest
+              <span>soon</span>
+            </a>
+            <a href="#" class="paper__inner-links-link">
+              marketplace
+              <small>(t-shirt, cut,hat, some)</small>
+              <span>soon</span>
+            </a>
+            <a href="#" class="paper__inner-links-link">
+              nft
+              <span>soon</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- paper end
+    =========================================== -->
+    <!-- road start
+    =========================================== -->
+    <section class="road">
+      <div class="auto__container">
+        <div class="road__inner">
+          <h1>
+            <span> ROADMAP </span>
+          </h1>
+          <div class="road__inner-image">
+            <img src="images/roadMap.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- road end
+    =========================================== -->
+    <!-- wallet start
+    =========================================== -->
+    <section class="wallet">
+      <div class="auto__container">
+        <div class="wallet__inner">
+          <h1>
+            <span> DOGGGO WALLET </span>
+          </h1>
+          <div class="wallet__inner-row">
+            <div class="wallet__inner-column">
+              <img src="images/please.jpg" alt="" />
+            </div>
+            <div class="wallet__inner-column">
+              <div class="wallet__inner-column-image">
+                <img src="images/moneyDog.jpg" alt="" />
+              </div>
+              <div
+                class="wallet__inner-column-link-copy"
+                onclick="copyToClipboard2('#copy2')"
+              >
+                <span
+                  id="copy2"
+                  data-replace="charityWallet"
+                  class="wallet__contract-address"
+                ></span>
+                <strong id="change2">COPY</strong>
+              </div>
+            </div>
+          </div>
+          <div class="wallet__inner-video">
+            <img src="images/dogggo-video.gif" alt="" />
+          </div>
+          <div class="wallet__inner-links">
+            <a
+              href="https://charts.bogged.finance/?token=0x857dd3b493c49a8b060faf227d2b901e72621293"
+            >
+              <img src="images/bogged.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- wallet end
+    =========================================== -->
+    <!-- footer start
+    =========================================== -->
+    <footer class="footer">
+      <div class="extra__container">
+        <div class="footer__inner">
+          <div class="footer__inner-column">
+            <div class="footer__inner-image">
+              <img src="images/stay.png" alt="" />
+            </div>
+            <div class="footer__inner-logo">
+              <a target="_blank" href="#" target="_blank" data-replace="buy"
+                ><img src="images/buy.jpg" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="footer__inner-nav">
+            <a
+              target="_blank"
+              href="#"
+              class="footer__inner-nav-link"
+              data-replace="twitter"
+            >
+              <img src="images/social/twitter.jpg" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="#"
+              class="footer__inner-nav-link"
+              data-replace="medium"
+            >
+              <img src="images/social/medium.jpg" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="#"
+              class="footer__inner-nav-link"
+              data-replace="facebook"
+            >
+              <img src="images/social/facebook.jpg" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="#"
+              class="footer__inner-nav-link"
+              data-replace="instagram"
+            >
+              <img src="images/social/instagram.jpg" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="#"
+              class="footer__inner-nav-link"
+              data-replace="reddit"
+            >
+              <img src="images/social/reddit.jpg" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="#"
+              class="footer__inner-nav-link"
+              data-replace="tiktok"
+            >
+              <img src="images/social/tiktok.jpg" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="#"
+              class="footer__inner-nav-link"
+              data-replace="telegram"
+            >
+              <img src="images/social/TgGroup.jpg" alt="" />
+            </a>
+            <a
+              href="#"
+              class="footer__inner-nav-link"
+              data-replace="telegramMemes"
+            >
+              <img src="images/social/TgMeme.jpg" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="#"
+              class="footer__inner-nav-link"
+              data-replace="discord"
+            >
+              <img src="images/social/discord.jpg" alt="" />
+            </a>
+          </div>
+          <div class="footer__inner-column">
+            <div class="footer__inner-logo">
+              <a target="_blank" href="#" data-replace="buy">
+                <img src="images/buy.jpg" alt="" />
+              </a>
+            </div>
+            <div class="footer__inner-image">
+              <img src="images/Copyright.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end
+    =========================================== -->
+  </body>
+
+</html>
