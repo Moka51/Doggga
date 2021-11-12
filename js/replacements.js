@@ -1,6 +1,6 @@
 var addresses = {
-    contract: "Not yet ser wait glam glam ",
-    charityWallet: "NULL"
+    contract: "0xf5cc0be61f32d4676c40e3716130c928b70734e0",
+    charityWallet: "0xf5cc0be61f32d4676c40e3716130c928b70734e0"
 }
 
 var links = {
